@@ -1,0 +1,317 @@
+.demo-1 .sl-slider-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.demo-1 .deco {
+	width: 960px;
+	height: 540px;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	margin: 0 0 -270px -480px;
+}
+
+
+.demo-1 .sl-slide h2 {
+	color: #000;
+	text-shadow: 0 0 1px #000;
+	padding: 20px;
+	position: absolute;
+	font-size: 34px;
+	font-weight: 700;
+	letter-spacing: 13px;
+	text-transform: uppercase;
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	line-height: 50px;
+	bottom: 50%;
+	margin: 0 0 -120px 0;
+}
+.sl-trans-elems .deco{
+}
+.sl-trans-elems h2{
+	-webkit-animation: moveUp 1s ease-in-out both;
+	-moz-animation: moveUp 1s ease-in-out both;
+	-o-animation: moveUp 1s ease-in-out both;
+	-ms-animation: moveUp 1s ease-in-out both;
+	animation: moveUp 1s ease-in-out both;
+}
+.sl-trans-elems blockquote{
+	-webkit-animation: fadeIn 0.5s linear 0.5s both;
+	-moz-animation: fadeIn 0.5s linear 0.5s both;
+	-o-animation: fadeIn 0.5s linear 0.5s both;
+	-ms-animation: fadeIn 0.5s linear 0.5s both;
+	animation: fadeIn 0.5s linear 0.5s both;
+}
+.sl-trans-back-elems .deco{
+	-webkit-animation: scaleDown 1s ease-in-out both;
+	-moz-animation: scaleDown 1s ease-in-out both;
+	-o-animation: scaleDown 1s ease-in-out both;
+	-ms-animation: scaleDown 1s ease-in-out both;
+	animation: scaleDown 1s ease-in-out both;
+}
+.sl-trans-back-elems h2{
+	-webkit-animation: fadeOut 1s ease-in-out both;
+	-moz-animation: fadeOut 1s ease-in-out both;
+	-o-animation: fadeOut 1s ease-in-out both;
+	-ms-animation: fadeOut 1s ease-in-out both;
+	animation: fadeOut 1s ease-in-out both;
+}
+.sl-trans-back-elems blockquote{
+	-webkit-animation: fadeOut 1s linear both;
+	-moz-animation: fadeOut 1s linear both;
+	-o-animation: fadeOut 1s linear both;
+	-ms-animation: fadeOut 1s linear both;
+	animation: fadeOut 1s linear both;
+}
+@-webkit-keyframes roll{
+	0% {-webkit-transform: translateX(500px) rotate(360deg);}
+	100% {-webkit-transform: translateX(0px) rotate(0deg);}
+}
+@-moz-keyframes roll{
+	0% {-moz-transform: translateX(500px) rotate(360deg); opacity: 0;}
+	100% {-moz-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@-o-keyframes roll{
+	0% {-o-transform: translateX(500px) rotate(360deg); opacity: 0;}
+	100% {-o-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@-ms-keyframes roll{
+	0% {-ms-transform: translateX(500px) rotate(360deg); opacity: 0;}
+	100% {-ms-transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@keyframes roll{
+	0% {transform: translateX(500px) rotate(360deg); opacity: 0;}
+	100% {transform: translateX(0px) rotate(0deg); opacity: 1;}
+}
+@-webkit-keyframes moveUp{
+	0% {-webkit-transform: translateY(40px);}
+	100% {-webkit-transform: translateY(0px);}
+}
+@-moz-keyframes moveUp{
+	0% {-moz-transform: translateY(40px);}
+	100% {-moz-transform: translateY(0px);}
+}
+@-o-keyframes moveUp{
+	0% {-o-transform: translateY(40px);}
+	100% {-o-transform: translateY(0px);}
+}
+@-ms-keyframes moveUp{
+	0% {-ms-transform: translateY(40px);}
+	100% {-ms-transform: translateY(0px);}
+}
+@keyframes moveUp{
+	0% {transform: translateY(40px);}
+	100% {transform: translateY(0px);}
+}
+@-webkit-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-o-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-ms-keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes fadeIn{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes scaleDown{
+	0% {-webkit-transform: scale(1);}
+	100% {-webkit-transform: scale(0.5);}
+}
+@-moz-keyframes scaleDown{
+	0% {-moz-transform: scale(1);}
+	100% {-moz-transform: scale(0.5);}
+}
+@-o-keyframes scaleDown{
+	0% {-o-transform: scale(1);}
+	100% {-o-transform: scale(0.5);}
+}
+@-ms-keyframes scaleDown{
+	0% {-ms-transform: scale(1);}
+	100% {-ms-transform: scale(0.5);}
+}
+@keyframes scaleDown{
+	0% {transform: scale(1);}
+	100% {transform: scale(0.5);}
+}
+@-webkit-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-moz-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-o-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@-ms-keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@keyframes fadeOut{
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+
+
+/* Media Queries for custom slider */
+
+@media screen and (max-width: 660px) {
+	.demo-1 .deco {
+		width: 130px;
+		height: 130px;
+		margin-left: -65px;
+		margin-bottom: 50px;
+	}
+
+	.demo-1 [data-icon]:after {
+		width: 110px;
+		height: 110px;
+		line-height: 110px;
+		font-size: 40px;
+		margin: -55px 0 0 -55px;
+	}
+
+	.demo-1 .sl-slide blockquote {
+		margin-bottom: -120px;
+	}
+
+	.demo-1 .sl-slide h2 {
+		line-height: 22px;
+		font-size: 18px;
+		margin-bottom: -40px;
+		letter-spacing: 8px;
+	}
+
+	.demo-1 .sl-slide blockquote p:before {
+		line-height: 10px;
+		width: 40px;
+		height: 40px;
+		font-size: 120px;
+		left: -45px;
+	}
+
+	.demo-2 .sl-slider-wrapper {
+		height: 500px;
+	}
+
+	.demo-2 .sl-slider h2 {
+		font-size: 36px;
+	}
+
+	.demo-2 .sl-slider blockquote {
+		font-size: 16px;
+	}
+
+}
+
+
+
+#bar{ position:fixed; width:65%; height:5.3em;  bottom:0; left:50%;  z-index: 20;
+	border: 1em solid #69BAD6;border-bottom:none;
+	transition: all .5s ease-in-out;
+ 	-ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%) ;
+    -webkit-transform: translateX(-50%) ;
+    transform: translateX(-50%) ;
+	background: #444;
+}
+#bar:hover{height:90%}
+#title h3{padding-top: .25em; padding-bottom:.25em; margin-left: .25em; letter-spacing: -.01em; font-size: 24pt; font-family:"Droid Serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: 600;color:#fff; font-style: oblique;}
+
+#title{width: 90%; border-bottom:1px solid #FFF; margin: 0 auto 0 auto;}
+#resume {padding:1.5em 20%;font-family:'Lato', sans-serif;; font-weight: 300;color:#fff; max-height: 95%;overflow-y: auto;overflow-x: hidden; width:105%;padding-bottom: 6em;}
+.scroller{height: 100%; overflow: hidden; max-width:50em;}
+#resume h1{font-size: 16pt;margin-left:-.65em; margin-top:.15em; font-weight: 300;color:#BBB;}
+#resume h2{font-size: 15pt; font-weight: 200; font-style: oblique; }
+#resume h3{font-size: 14pt; font-weight: 200; font-style: oblique; }
+#resume p{font-size: 11pt; font-weight: 300; margin-left:.65em;line-height:14pt;}
+#resume a{color:#BBB;}
+#resume a p{margin-left:-.65em;}
+#resume a:hover{color:#69BAD6;}
+#title i{line-height: 0; margin-top:-1.8em; padding-right:.25em; float:right; color:#fff;}
+#title a:hover i{ color:#69BAD6;}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+	max-height: 105%;
+	max-width: 105%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
+#left{position:fixed; width:1em; height:100%;left: 0; background-color:#69BAD6;z-index: 10;}
+#top{position:fixed; width:100%; height:1em;top: 0; background-color:#69BAD6;z-index: 10;}
+#bottom{position:fixed; width:100%; height:1em;bottom: 0; background-color:#69BAD6;z-index: 10;}
+#right{position:fixed; width:1em; height:100%;right: 0; background-color:#69BAD6;z-index: 10;}
+
+#Muter { position:fixed; width:32px; bottom:1.2em; right:2.4em; z-index: 25;}
+
+input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+	color:#fff;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+
+input[type=checkbox] + label:before { content: "\f026"; font-size:36pt; text-align: center;padding-left: 14px;  } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f028";padding-left: 0px;} /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+video{cursor: pointer;}
+#pause{ font-family: FontAwesome;pointer-events:none;
+	position: fixed; 
+	z-index: 15;
+	top: 50%;  
+    left: 50%; 
+	-ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);}
+#pause:before{content: "\f04b "; font-size:150pt; color:rgba(255,255,255,1);text-shadow: 4px 4px 16px rgba(0,0,0,.2);}
+#pause:hover:before{color:rgba(255,255,255,.8)}
+@media screen and (max-width: 1400px) {
+	#resume {padding:2em 10%;}
+	
+}
+
+@media screen and (max-width: 800px) {
+	#title h3{ font-size: 12pt; margin-top:.5em;}
+	#title i {font-size: 10pt;margin-top:-1em;}
+	#bar{ width:100%;height:3em; border:none; }
+	#bar:hover{height:3em; }
+	#title{border:none;}
+	video#bgvid { min-width: 100%;}
+	input[type=checkbox] + label:before {}
+	#left, #right, #top, #bottom{display: none;}
+	#Muter {bottom:3.1em;right:1.4em;}
+	#resume{visibility:hidden;}
+	
+}
