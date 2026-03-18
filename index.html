@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Collin Dow - Animation &amp; Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Lato" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-git2.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+		
+		
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+      </head>
+    <body style="background-color: #4AABCD;">
+       
+		<div id="top"></div>
+        <div id="left"></div>
+        <div id="bottom"></div>
+        <div id="right"></div>
+		<div id="pause"></div>
+        <div id="Muter">
+           	<input type="checkbox" name="un-mute" id="un-mute" checked>
+			<label for="un-mute" class="unmute">
+			</label>
+			<label for="un-mute" class="mute">
+   			</label>
+		</div>  
+          
+           <div id="bar" class="">
+           
+			<div id="title"><h3>Collin Dow</h3> 
+        
+		
+		<a href="mailto:collin@oh-and.com"><i>collin@oh-and.com</i></a></div>
+		<div class="scroller">
+			<div id="resume">
+			
+			
+			<h1>Experience</h1>
+			<p>	Motion design &amp; animation for many national brands.<br />
+				Compositing in Adobe After Effects &amp; Autodesk Flame.<br />
+				Color correction in DaVinci Resolve &amp; Adobe Creative Suite.<br />
+				Web technologies; including HTML, CSS, JavaScript, jQuery, &amp; XML.<br />
+				Print design &amp; illustration in Adobe Creative Suite.<br />
+				Typesetting &amp; hand lettering.</p>
+		
+			<h1>Education</h1>
+			<h2 style="margin-top:0.1em;">College for Creative Studies</h2>
+			<h3></h3>
+				<i style="margin-top:-0.1em;">2001 - 2003</i>
+				<p>BFA in Animation &amp; Design</p>
+		
+			<h1>Brands</h1>
+				<p>Chrysler, Ford, GM, Mazda, Cadillac, Blue Cross Blue Sheild, Consumers Energy, Expedia, La-Z-Boy, Food Network, Moog, Country Inn &amp; Suites, Wagner Brakes, Old Country Buffet, Amazon, Cox, &amp; DTE</p>
+		
+			<h1>Agencies</h1>
+				<p>Duffey Petrosky, Team Detroit, Campbell Ewald, Doner, ReGroup, McCann, Leo Burnett, SMZ, &amp; Push 22</p>
+		
+			<h1>Work History</h1>
+				<h2 style="margin-top:0.1em;">Section8 Editorial &amp; Design</h2>
+				<i style="margin-top:-0.1em;">2006 - 2017</i>
+				<p>	Lead design &amp; animator on a variety of projects.<br />
+					Color, compositing, &amp; assemblage in both DaVinci Resolve &amp; Autodesk Flame.<br />
+					Design, maintenance, &amp; expedition of web and social media content.</p>
+								
+				<h2 style="margin-top:.2em;">Freelance Motion &amp; Web Design</h2>
+				<i style="margin-top:-0.1em;">2003 - Current</i>
+				<p>Print &amp; Motion Design for a variety of local companies.</p>
+					<br />
+				<a href="Work/Videos/2015-Reel-W.mp4" download><p>Download Reel</p></a>
+			</div></div></div>
+		<div class="container demo-1">
+		   <div id="slider" class="sl-slider-wrapper">
+
+				<div class="sl-slider">
+				
+					<div class="sl-slide bg-1">
+						<div class="sl-slide-inner">
+						
+							
+								<video playsinline loop poster="Work/Videos/TempPoster.png" id="bgvid" >
+								<source src="Work/Videos/2017Reel-W.mp4" type="video/mp4">
+								<source src="Work/Videos/2017Reel-W.ogv" type="video/ogg">
+								Your browser does not support the video tag.
+								</video>
+							
+								
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			jQuery( document ).ready(function($) {
+				$('video').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+});
+			$("video").prop('muted', false);
+			$(function(){
+				var video = $('video')[0];
+				video.addEventListener('playing', function(){
+					   $('#pause').fadeOut();
+				})
+				 video.addEventListener('pause', function(){
+					   $('#pause').fadeIn();
+				})
+			})
+			  $("#un-mute").click( function (){
+				if( $("video").prop('muted') ) {
+					  $("video").prop('muted', false);
+				} else {
+				  $("video").prop('muted', true);
+				}
+			  });
+			
+			
+			</script>
+	</body>
+</html>
