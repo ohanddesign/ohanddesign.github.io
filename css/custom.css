@@ -233,7 +233,7 @@
 	background: #444;
 }
 #bar:hover{height:70%}
-#title h3{padding-top: .25em; padding-bottom:.25em; margin-left: .25em; letter-spacing: -.01em; font-size: 24pt; font-family:"Droid Serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: 600;color:#fff; font-style: oblique;}
+#title h3{padding-top: .25em; padding-bottom:.25em; margin-left: .25em; letter-spacing: -.01em; font-size: 24pt; font-family:"Droid Serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: 600;color:#fff;}
 
 #title{width: 90%; border-bottom:1px solid #FFF; margin: 0 auto 0 auto;}
 #resume {padding:1.5em 20%;font-family:'Lato', sans-serif;; font-weight: 300;color:#fff; max-height: 95%;overflow-y: auto;overflow-x: hidden; width:105%;padding-bottom: 6em;}
