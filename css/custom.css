@@ -239,8 +239,8 @@
 #resume {padding:1.5em 20%;font-family:'Lato', sans-serif;; font-weight: 300;color:#fff; max-height: 95%;overflow-y: auto;overflow-x: hidden; width:105%;padding-bottom: 6em;}
 .scroller{height: 100%; overflow: hidden; max-width:50em;}
 #resume h1{font-size: 16pt;margin-left:-.65em; margin-top:.15em; font-weight: 300;color:#BBB;}
-#resume h2{font-size: 15pt; font-weight: 200; font-style: oblique; }
-#resume h3{font-size: 14pt; font-weight: 200; font-style: oblique; }
+#resume h2{font-size: 15pt; font-weight: 200; font-style: normal ; }
+#resume h3{font-size: 14pt; font-weight: 200; font-style: normal; }
 #resume p{font-size: 11pt; font-weight: 300; margin-left:.65em;line-height:14pt;}
 #resume a{color:#BBB;}
 #resume a p{margin-left:-.65em;}
