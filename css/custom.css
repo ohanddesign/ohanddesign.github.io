@@ -232,7 +232,7 @@
     transform: translateX(-50%) ;
 	background: #444;
 }
-#bar:hover{height:90%}
+#bar:hover{height:70%}
 #title h3{padding-top: .25em; padding-bottom:.25em; margin-left: .25em; letter-spacing: -.01em; font-size: 24pt; font-family:"Droid Serif", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-weight: 600;color:#fff; font-style: oblique;}
 
 #title{width: 90%; border-bottom:1px solid #FFF; margin: 0 auto 0 auto;}
