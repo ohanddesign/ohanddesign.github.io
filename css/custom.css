@@ -232,7 +232,7 @@
     transform: translateX(-50%) ;
 	background: #444;
 }
-#bar:hover{height:70%}
+#bar:hover{height:18%}
 #title h3{padding-top: .3em; padding-bottom:.2em; margin-left: .25em; letter-spacing: -.01em; font-size: 32pt; font-family: "sauna-new", sans-serif; font-weight: 600;color:#fff;}
 
 #title{width: 90%; border-bottom:0px solid #FFF; margin: 0 auto 0 auto;}
