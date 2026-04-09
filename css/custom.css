@@ -223,7 +223,7 @@
 
 
 
-#bar{ position:fixed; width:65%; height:5.3em;  bottom:0; left:50%;  z-index: 20;
+#bar{ position:fixed; width:50%; height:5.3em;  bottom:0; left:50%;  z-index: 20;
 	border: 1em solid #69BAD6;border-bottom:none;
 	transition: all .5s ease-in-out;
  	-ms-transform: translateX(-50%);
@@ -236,16 +236,16 @@
 #title h3{padding-top: .3em; padding-bottom:.2em; margin-left: .25em; letter-spacing: -.01em; font-size: 32pt; font-family: "sauna-new", sans-serif; font-weight: 600;color:#fff;}
 
 #title{width: 90%; border-bottom:0px solid #FFF; margin: 0 auto 0 auto;}
-#resume {padding:1.5em 20%;font-family:'sauna-new', 'Lato', sans-serif;; font-weight: 300;color:#fff; max-height: 95%;overflow-y: auto;overflow-x: hidden; width:105%;padding-bottom: 6em;}
+#resume { margin-left: 6em; margin-top:-.2em; font-family: 'sauna-new', 'Lato', sans-serif; font-weight: 300;color:#fff; max-height: 95%;overflow-y: auto;overflow-x: hidden; width:105%;}
 .scroller{height: 100%; overflow: hidden; max-width:50em;}
 #resume h1{font-size: 16pt;margin-left:-.65em; margin-top:.15em; font-weight: 300;color:#BBB;}
 #resume h2{font-size: 15pt; font-weight: 200; font-style: normal ; }
 #resume h3{font-size: 14pt; font-weight: 200; font-style: normal; }
 #resume p{font-size: 11pt; font-weight: 300; margin-left:.65em;line-height:14pt;}
 #resume a{color:#BBB;}
-#resume a p{margin-left:-.65em;}
+#resume a p{}
 #resume a:hover{color:#69BAD6;}
-#title i{line-height: 0; margin-top:-1.8em; padding-right:.25em; float:right; color:#fff;}
+#title i{line-height: 0; margin-top:.55em; padding-left:.85em; float:left; color:#fff; font-size: 12pt;}
 #title a:hover i{ color:#69BAD6;}
 
 video#bgvid { 
@@ -298,8 +298,6 @@ video{cursor: pointer;}
 #pause:before{content: "\f04b "; font-size:150pt; color:rgba(255,255,255,1);text-shadow: 4px 4px 16px rgba(0,0,0,.2);}
 #pause:hover:before{color:rgba(255,255,255,.8)}
 @media screen and (max-width: 1400px) {
-	#resume {padding:2em 10%;}
-	
 }
 
 @media screen and (max-width: 800px) {
